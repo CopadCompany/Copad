@@ -7,6 +7,7 @@
     <title>COPAD</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lives/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/5355502247.js" crossorigin="anonymous"></script>
@@ -15,72 +16,128 @@
     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- bootstrap -->
     <link rel="shortcut icon" type="image/png" href="./IMG/favicon.png"/>
-  <style>
-#particles-js{
+    <style>
+      #particles-js{
         width: 100%;
         height: 40vh;
         background-image: linear-gradient(rgb(0, 0, 0), transparent);
       }
+    </style>
+</head>
 
-      
-      
-
-  </style>
-    
-
-  </head>
 <body>
   <div id="particles-js">
-    
   </div>
-        <!-- header -->
-        <header class="header" id="header">
-            <a class="logo_link" href="INDEX.HTML"><div class="logo">COPAD<span id="co_2">Co.</span></div></a>
-            <input type="checkbox" id="toggle">
-            <label for="toggle"><img class="menu" src="IMG/menu.svg" alt="menu"></label>
 
-            <nav class="navigation">
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#about_us">Sobre Nosotros</a></li>
-                    <li><a href="#servicios">Servicios</a>
-                    </li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+  <div id="video-container">
+    <video autoplay loop muted>
+      <source src="nebula_-_24623 (Original).mp4" type="video/mp4">
+      Tu navegador no soporta el elemento de video.
+    </video>
+  </div>
+
+  <!-- header -->
+  <header class="header" id="header">
+      <a class="logo_link" href="INDEX.HTML"><div class="logo">COPAD<span id="co_2">Co.</span></div></a>
+      <input type="checkbox" id="toggle">
+      <label for="toggle"><img class="menu" src="IMG/menu.svg" alt="menu"></label>
+
+      <nav class="navigation">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#about_us">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a>
+            </li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+      </nav>
+  </header>
         
-        <!-- section -->
-        <section>
-            <!-- Articulo principal (COPAD)-->
-            <article class="article_principal" id="inicio">
-                <h2>COPAD<span id="co">Co.</span></h2>
-                <p>
-                   Cipres Organización Privada Argentina de Desarrolladores.
-                </p>
-            </article>
+  <!-- section -->
+  <section>
+      <!-- Articulo principal (COPAD)-->
+      <article class="article_principal" id="inicio">
+        <h2>COPAD<span id="co">Co.</span></h2>
+        <p>
+            Cipres Organización Privada Argentina de Desarrolladores.
+        </p>
+      </article>
             
-            <!-- Articulo 2do (frase motivacional)-->
-            <div class="container_1" >
-              <div class="descripcion">
-                  <h4>"En un mundo de constante evolución el impulso hacia nuevas tecnologias 
-                      es el motor que llevara a las empresas mas allá de los limites conocidos y 
-                      hacia un futuro lleno de innovación, crecimiento y éxito.
-                  </h4>
-              </div>
-            </div>
+      <!-- Articulo 2do (frase motivacional)-->
+      <div class="container_1" >
+        <div class="descripcion">
+            <h4>"En un mundo de constante evolución el impulso hacia nuevas tecnologias 
+                es el motor que llevara a las empresas mas allá de los limites conocidos y 
+                hacia un futuro lleno de innovación, crecimiento y éxito.
+            </h4>
+        </div>
+      </div>
 
-            <div class="container_2">
-              
-              <img src="./IMG/2023-05-19.png" alt="">
+      <div class="container_2">
               
               <h6><hr>Somos una organización dirigida a la programación.
                 Dedicada a agilizar procesos empresareiales y a aumentar
                  el flujo de trabajo con nuevas tecnologias.<hr></h6>
+      </div>
+            
+      <!--servicios-->
+      <div class="container">
+
+          <div class="card_1">
+              <div class="top-row background-top-row">
+                <h4>Páginas Web</h4>
+                <i class="fa-light fa-laptop-code" style="color: #ffffff;"></i>
+              </div>
+
+              <div class="card_content1">
+                <h5>Estáticas y dinámicas</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum veritatis corrupti totam modi deserunt minus, excepturi consequatur voluptate pariatur aperiam accusantium alias fuga cupiditate debitis sint. Et impedit aliquid iure.</p>
+                <button class="button background-top-row">Mas información</button>
+              </div>
+          </div>
+
+          <div class="card_2">
+            <div class="top-row background-top-row">
+              <h4>Softwares</h4>
+              <i class="fa-light fa-laptop-code" style="color: #ffffff;"></i>
             </div>
-            <div class="container_3">
-              <br>
+
+            <div class="card_content2">
+              <h5>Softwares de escritorio</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum veritatis corrupti totam modi deserunt minus, excepturi consequatur voluptate pariatur aperiam accusantium alias fuga cupiditate debitis sint. Et impedit aliquid iure.</p>
+              <button class="button background-top-row">Mas información</button>
             </div>
+          </div>
+
+          <div class="card_3">
+            <div class="top-row background-top-row">
+              <h4>Community manager</h4>
+              <i class="fa-light fa-laptop-code" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="card_content3">
+              <h5>Redes sociales</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum veritatis corrupti totam modi deserunt minus, excepturi consequatur voluptate pariatur aperiam accusantium alias fuga cupiditate debitis sint. Et impedit aliquid iure.</p>
+              <button class="button background-top-row">Mas información</button>
+            </div>
+          </div>
+
+      <div class="card_4">
+
+        <div class="top-row background-top-row">
+          <h4>QA</h4>
+          <i class="fa-light fa-laptop-code" style="color: #ffffff;"></i>
+        </div>
+
+        <div class="card_content4">
+          <h5>Análisis y soluciones tecnológicas</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum veritatis corrupti totam modi deserunt minus, excepturi consequatur voluptate pariatur aperiam accusantium alias fuga cupiditate debitis sint. Et impedit aliquid iure.</p>
+          <button class="button background-top-row">Mas información</button>
+        </div>
+    </div>
+
+      </div>  
+
                   <!-- form -->
                   <article id="contact">
                       <div class="content">
@@ -134,7 +191,7 @@
                   </article>
           
 
-        </section>
+  </section>
 
 
         <!-- footer -->
